@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "prettier", "eslint:recommended"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/display-name": 0
+  }
+}

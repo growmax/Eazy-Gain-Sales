@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-EazyGain_">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="EazyGain_" data-name="EazyGain " clip-path="url(#clip-EazyGain_)">
+    <rect width="512" height="512" fill="#0b5cff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-54.315 34.368)">
+      <g id="Discover_edge" transform="translate(108.63 191.318) rotate(-25)">
+        <path id="Subtraction_9" data-name="Subtraction 9" d="M20.763,140.263h0a84.6,84.6,0,0,1-6.3-102.917A84.951,84.951,0,0,1,51.734,6.656a84.595,84.595,0,0,1,80.331,7.81,84.951,84.951,0,0,1,30.689,37.267,84.852,84.852,0,0,1-7.207,79.425,121.21,121.21,0,0,0-134.783,9.1Z" transform="translate(84.879 85.156)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <rect id="Rectangle_32" data-name="Rectangle 32" width="20.528" height="73.902" rx="10" transform="translate(158.579 0)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <rect id="Rectangle_33" data-name="Rectangle 33" width="20.329" height="74.54" rx="10" transform="translate(307.017 67.222) rotate(60)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <rect id="Rectangle_34" data-name="Rectangle 34" width="20.329" height="74.54" rx="10" transform="translate(80.246 25.167) rotate(-30)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <path id="Path_359" data-name="Path 359" d="M10.165,0A10.165,10.165,0,0,1,20.329,10.165V64.376A10.165,10.165,0,1,1,0,64.376V10.165A10.165,10.165,0,0,1,10.165,0Z" transform="translate(21.203 86.647) rotate(-60)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <rect id="Rectangle_36" data-name="Rectangle 36" width="20.329" height="74.54" rx="10" transform="translate(240.451 14.508) rotate(30)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <rect id="Rectangle_37" data-name="Rectangle 37" width="20.329" height="74.54" rx="10" transform="translate(0 176.203) rotate(-90)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+        <rect id="Rectangle_38" data-name="Rectangle 38" width="20.329" height="74.54" rx="10" transform="translate(339.955 162.982) rotate(90)" fill="#fcfcfc" stroke="#fff" stroke-width="5"/>
+      </g>
+    </g>
+  </g>
+</svg>
