@@ -28,7 +28,7 @@ export const requestBody = (...props) => {
     warehouse,
     accountOwnerList,
     factor,
-    costData
+    costData,
   ] = props;
   function getMobileNo(value) {
     let mobileNcountry;
@@ -46,7 +46,7 @@ export const requestBody = (...props) => {
   const total = VDDetails?.grandTotal
     ? VDDetails?.grandTotal
     : cartValue?.grandTotal;
-    
+
   if (Settings.roundingAdjustment) {
     calculatedTotal = total;
     grandTotal = round(total);
@@ -101,7 +101,7 @@ export const requestBody = (...props) => {
     isSPRRequested: isSPRRequested,
     modifiedByUsername:
       authData.displayName + ", " + defaultSellerAddress?.companyId?.name,
-    notes: "notes",
+    notes: null,
     orderDeliveryDate: "string",
     orderDescription: "string",
     orderDivisionId: division ? parseInt(division.id) : null,
@@ -268,7 +268,10 @@ let proceesProduct = (
   costData
 ) => {
   return map(dbProductDetails, (prod) => {
-    const productCostData = find(costData, cd => cd.productId === prod.productId)
+    const productCostData = find(
+      costData,
+      (cd) => cd.productId === prod.productId
+    );
     return {
       ...prod,
       productCost: productCostData?.cost || 0,
